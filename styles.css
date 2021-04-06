@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.container {
+    width: 400px;
+    margin: 10px auto;
+    background-color: whitesmoke;
+}
+
+.nav {
+    display: flex;
+    flex: row;
+   
+    padding: 10px;
+}
+
+
+.logo
+ {
+    font-size: 1.8em;
+    flex-grow: 1;
+   
+}
+
+ 
+.title{
+     flex-grow: 80;
+     margin-left: 3px;
+
+}
+
+.dots {
+    flex-grow: 1;
+}
+
+.dots:after {
+  content: '\2807';
+  font-size: 23px;
+  
+}
+
+img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.icon-bar {
+    display: flex;
+    flex: row;
+    font-size: 2em;
+    padding: 5px;
+}
+
+.icon-block {
+    flex-grow: 1;
+}
+.fa-bookmark {
+    flex-grow: 2;
+    
+
+}
+
+.para {
+    padding: 5px;
+}
